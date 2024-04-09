@@ -1,0 +1,19 @@
+.cabecalho{
+background-color:#ffffff;
+color:#000000;
+/*'color'decide qual sera a cor do texto */
+display:flex;
+/*'display:flex;'muda a forma que os elementos dentro deste estão organizados para "flexivel" */
+justify-content: space-around;
+/*"justify-content:space-araund;"  */
+
+}
+
+
+.cabecalho-imagem{
+    width: -20%;
+    /*alterar Tamanho da imagem*/
+}
+.cabecalholistaitem{
+    display:inline-block ;
+} 
