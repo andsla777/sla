@@ -6,14 +6,38 @@ display:flex;
 /*'display:flex;'muda a forma que os elementos dentro deste estão organizados para "flexivel" */
 justify-content: space-around;
 /*"justify-content:space-araund;"  */
-
+padding: 24px 0;
+font-size: 30px;
 }
 
 
 .cabecalho-imagem{
     width: -20%;
     /*alterar Tamanho da imagem*/
+  
 }
 .cabecalholistaitem{
     display:inline-block ;
+    margin:  0 10px;
+    padding: 20px 0;
+
 } 
+.sobre-imagem{
+    width: 10%;
+}
+.sobre{
+    background-color: linear-gradient(blue);
+     display : flex;
+     justify-content:  center;
+     align-items :center;
+     padding :24px 0;
+}
+.sobre-conteudo{
+    width: 50%;
+}
+.sobre-titulo{
+    padding: 24px 0;
+}
+.membro-imagem{
+    width: 30px;
+}
